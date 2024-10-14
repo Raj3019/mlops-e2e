@@ -13,7 +13,9 @@
       "package*.json",
       "yarn.lock",
       "node_modules",
-      "test"
+      "test",
+      "**/__init__.py",
+      "python/__pycache__"
     ]
   },
   "context": {
