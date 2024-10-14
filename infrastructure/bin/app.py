@@ -2,7 +2,7 @@
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 # SPDX-License-Identifier: MIT-0
 from aws_cdk import App
-from infrastructure.lib.infrastractureStack import InfrastractureStack
+from lib.infrastractureStack import InfrastractureStack
 import json
 
 with open('../../configuration/projectConfig.json') as config_file:
