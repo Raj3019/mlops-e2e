@@ -1,5 +1,5 @@
 {
-  "app": "npx ts-node --prefer-ts-exts bin/app.ts",
+  "app": "python3 -m infrastructure.bin.app",
   "watch": {
     "include": [
       "**"
